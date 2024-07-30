@@ -17,7 +17,7 @@
     
     .container {
         background-color: #ffdead;
-        padding: 20px;
+        /* padding: 10px; */
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
@@ -87,6 +87,11 @@
         color: #ff0000;
         cursor: pointer;
     }
+    .deep{
+        width: 500px;
+        height: 100px;
+        background-color: #0d428896;
+    }
     </style>
 </head>
 <body>
@@ -108,8 +113,8 @@
             <label for="amount">Amount:</label>
             <input type="number" id="amount">
         </div>
-        <button id="add-btn">Add to transactions</button>
-      
+        <button id="add-btn">Add to transactions</button><br><br>
+      <div class="deep"></div>
         <table id="transactions-table">
             <thead>
                 <tr>
